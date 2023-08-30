@@ -6,13 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+
+    <Button
+        android:id="@+id/btn_dtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Worl123d!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Doan thanh nien"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="282dp" />
 
+    <Button
+        android:id="@+id/btn_ktx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kytuc xa"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <Button
+        android:id="@+id/btn_pctsv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phong cong tac sinh vien"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="380dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
